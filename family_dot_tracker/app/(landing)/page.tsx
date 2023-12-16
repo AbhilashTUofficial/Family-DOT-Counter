@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Home = () => {
-function getReadableDateDifference(givenDate) {
+function getReadableDateDifference(givenDate: string | number | Date) {
   // Parse the given date and today's date
   const givenDateTime = new Date(givenDate).getTime();
   const todayDateTime = new Date().getTime();
