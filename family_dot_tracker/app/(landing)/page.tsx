@@ -28,7 +28,7 @@ function getReadableDateDifference(givenDate: string | number | Date) {
 
   return (
     <body>
-      <div data-theme='dark' className='card w-full bg-neutral shadow-lg text-neutral-content p-4 overflow-auto rounded-md   hover:w-[140px] transition-all hover:shadow-xl hover:shadow-indigo-500/20'>
+      <div data-theme='dark' className='card w-full bg-neutral shadow-lg text-neutral-content p-4 overflow-auto '>
         <div className='py-6'>
           <text>Rani: </text>
           <text>{getReadableDateDifference('1983-4-24')}</text>
